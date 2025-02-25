@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/503fcbcc81.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-------------------------header------------------------------>
+    <div id="header">
+      <div class= "container">
+          <nav>
+              <img src="images/logo.png" class="logo" height="185px">
+
+              <ul id="sidemenu">
+                  <li><a href="index.html#header">Home</a></li>
+                  <li><a href="index.html#about">About</a></li>
+                  <li><a href="index.html#services">Services</a></li>
+                  <li><a href="index.html#portfolio">Portfolio</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+
+                  <i class="fa-solid fa-times" onclick="closemenu()"></i>
+              </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+       <div  class="header-text"> 
+           <p> <span class="pro"></span></p>
+           <h1>Hi!<br> I am <span>Lakindu</span> <br> From Sri Lanka.</h1>
+       </div>
+      </div>
+    </div>
+  <!-------------------------about------------------------------>
+
+    <div id="about">
+       <div class="container">
+         <div class="row">
+           <div class="about-col-1">
+             <img src="images/about.gif" width="430px" height="430px">
+           </div>
+           <div class="about-col-2">
+             <h1 class="sub-title">About Me</h1>
+             <p>I’m an adaptable and organized IT graduate from the Sri Lanka Institute of Information Technology (SLIIT), 
+               with a strong passion for exploring new technologies. I specialize in web development, UI/UX design, and project 
+               management, leveraging my skills to drive innovation. I excel in handling diverse tasks independently while 
+               constantly seeking growth opportunities. With a positive mindset and natural leadership abilities, I motivate 
+               myself and others to achieve excellence. I am committed to making a meaningful impact in the tech field by applying 
+               my expertise and delivering innovative solutions.</p>
+             <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div> 
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Application Development</span><br>Building efficient web applications that address real-world needs.</li>
+                <li><span>UI/UX Designer</span><br>Designing intuitive interfaces and seamless user experiences.</li>
+                <li><span>Project Management</span><br>Leading projects with effective collaboration and timely delivery.</li>
+              </ul>
+            </div><div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023 - Present</span><br> Software Developer & Designer at Fiverr</li>
+                <li><span>2023 - 2024</span><br>intern IT Executive at Wesco Homes(pvt) Ltd.</li>
+              </ul>
+            </div><div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br>BSc(hons) in Information Technology <br> Sri Lanka Institute of Information Technology(SLIIT).</li>
+                <li><span>2024</span><br>Project Management cetification by Great Learning.</li>
+                <li><span>2022</span><br>Web Development cetification by Udemy.</li>
+              </ul>
+            </div>
+            </div>
+         
+         </div>
+       </div>
+    </div>
+
+  <!-------------------------services------------------------------>
+  <div id="services">
+   <div class="container">
+     <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+         <h2>Web Application Development</h2>
+         <p>Building custom web applications tailored to meet specific needs, ensuring seamless functionality and scalability.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>User Interface Design</h2>
+          <p>Designing seamless and engaging  user interfaces that prioritize usability and elevate the overall user experience on web platforms.</p>
+         </div>
+         <div>
+          <i class="fa-solid fa-list-check"></i>
+          <h2>Project Management</h2>
+          <p>Managing projects from initiation to completion, ensuring smooth execution, on-time delivery, and successful results.</p>
+         </div>
+
+     </div>
+     <h2 class="tools">Tool & Technologies</h2>
+     <ul id="toolmenu">
+       <li><i class="fa-brands fa-html5"></i> HTML</li>
+       <li><i class="fa-brands fa-css3-alt"> CSS</i></li>
+       <li><i class="fa-brands fa-js"></i> Javascript</li>
+       <li><i class="fa-brands fa-java"></i> Java</li>
+       <li><i class="fa-brands fa-php"></i> PHP</li>
+       <li><i class="fa-brands fa-react"></i> React.js</li>
+       <li><i class="fa-brands fa-node"></i> Node.js</li>
+       <li><i class="fa-brands fa-aws"></i> AWS</li>
+       <li><i class="fa-brands fa-figma"></i> Figma</li>
+       <li><i class="fa-brands fa-github"></i> Github</li>
+       <li><i class="fa-solid fa-database"></i> SQL</li> 
+       <li><i class="fa-brands fa-jira"></i> Jira</li>
+       <li><i class="fa-brands fa-microsoft"></i> MS Office</li>    
+     </ul>
+   </div>
+  </div>
+  <!--------------------Portfolio------------------------------------->
+   <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/work1.PNG">
+              <div class="layer">
+                <h3> Web Application<br> Tour Booking</h3>
+                <p>This Web app is developed for book tours in Sri Lanka</p>
+                <a href="https://tournetlanka.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work2.PNG" height="310px">
+              <div class="layer">
+                <h3>UI Design <br>Tour recommendation App </h3>
+                <p>UI designed for this mobile app recommend Sri Lanka's destinations.</p>
+                <a href="https://www.figma.com/proto/NWHMlKcAHNJHW0xToIDkHh/TourBuddyApp?node-id=2-2239&p=f&t=odgOuJqZoIkPIPQ0-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A2&starting-point-node-id=2%3A1807&show-proto-sidebar=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/hospital.png" height="310px">
+              <div class="layer">
+                <h3>Hospital Management System</h3>
+                <p>This Web app is developed as university project of hospital management system.</p>
+                <a href="https://github.com/lakineth/dev_app.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="https://github.com/lakineth" class="btn"> See More in Github</a>
+      </div>
+   </div>
+
+   <!-------------------contact---------------->
+
+   <div id="contact">
+     <div class="container">
+      <div class="row">
+
+        <div class="contact-left">
+          <h1 class="sub-title">Send me</h1>
+          <p><i class="fa-solid fa-envelope"></i>lakindu.nethmi@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>+94 76 7059067</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lakindu-nethmin-22974b221/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="images/Lakindu_Nethmin.pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+        <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name">
+              <input type="email" name="Email" placeholder="Your Email">
+              <textarea name="message" rows="5" placeholder="Your Message"></textarea> 
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+      </div>
+     </div>
+     <div class="copyright">
+       <p>Copyright © Lakindu 2025. All Rights Reserved.</i></p>
+     </div>
+   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+  //----------------headerjs-------------
+  var typed = new Typed(".pro",{
+    strings:["Software Developer!","UI/UX Designer!","Project Manager!","Fast Learner!"],
+    typeSpeed: 60,
+    backSpeed: 55,
+    loop:true
+  });
+
+  //---------------aboutjs---------------
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0"
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px"
+    }
+  </script>
+
+</body>
+</html>
