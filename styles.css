@@ -349,6 +349,9 @@ nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width:600px){
+    .container{
+    padding: 10px 5%;
+   }
     #header{
         background-image: url(images/1-phone.png);
     }
