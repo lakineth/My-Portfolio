@@ -348,7 +348,7 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:600px){
     #header{
         background-image: url(images/1-phone.png);
     }
@@ -389,6 +389,7 @@ nav .fa-solid{
     }
     .about-col-1{
         margin-bottom: 30px;
+        padding: -20px;
     }
     .about-col-2{
         font-size: 14px;
