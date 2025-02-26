@@ -385,11 +385,10 @@ nav .fa-solid{
         cursor: pointer;
     }
     .about-col-1, .about-col-2{
-        flex-basis: 100%;
+        flex-basis: 80%;
     }
     .about-col-1{
         margin-bottom: 30px;
-        width: 100%;
     }
     .about-col-2{
         font-size: 14px;
