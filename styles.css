@@ -352,6 +352,8 @@ nav .fa-solid{
    
     #header{
         background-image: url(images/1-phone.png);
+        background-size: cover;
+        background-position: center;
     }
     .header-text{
         margin-top: 65%;
