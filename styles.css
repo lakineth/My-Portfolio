@@ -352,6 +352,7 @@ nav .fa-solid{
    
     #header{
         background-image: url(images/1-phone.png);
+        width: 100%;
     }
     .header-text{
         margin-top: 65%;
