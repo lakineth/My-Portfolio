@@ -348,7 +348,7 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:600px){
    
     #header{
         background-image: url(images/1-phone.png);
@@ -388,7 +388,7 @@ nav .fa-solid{
         cursor: pointer;
     }
     .about-col-1, .about-col-2{
-        flex-basis: 100%;
+        flex-basis: 90%;
     }
     .about-col-1{
         margin-bottom: 30px;
