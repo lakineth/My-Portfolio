@@ -352,8 +352,6 @@ nav .fa-solid{
    
     #header{
         background-image: url(images/1-phone.png);
-        background-size: cover;
-        background-position: center;
     }
     .header-text{
         margin-top: 65%;
@@ -388,7 +386,7 @@ nav .fa-solid{
         cursor: pointer;
     }
     .about-col-1, .about-col-2{
-        flex-basis: 90%;
+        flex-basis: 100%;
     }
     .about-col-1{
         margin-bottom: 30px;
