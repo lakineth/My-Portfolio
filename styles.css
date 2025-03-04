@@ -92,6 +92,8 @@ nav ul li a:hover::after{
     border-style: solid;
     border-radius: 15px;
     border-color: #fff;
+    width: 420px;
+    height: 420px
 }
 .about-col-2{
     flex-basis: 55%;
@@ -390,6 +392,13 @@ nav .fa-solid{
     }
     .about-col-1{
         margin-bottom: 30px;
+    }
+    .about-col-1 img{
+       border-style: solid;
+       border-radius: 15px;
+       border-color: #fff;
+       width: 380px;
+       height: 380px
     }
     .about-col-2{
         font-size: 14px;
